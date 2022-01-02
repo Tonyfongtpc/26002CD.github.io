@@ -1,0 +1,2316 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns:st1="urn:schemas-microsoft-com:office:smarttags"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=big5">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 14">
+<meta name=Originator content="Microsoft Word 14">
+<link rel=File-List href="26002CD.files/filelist.xml">
+<title>CP 取載試運轉操作程序（大修後初次起動）</title>
+<o:SmartTagType namespaceuri="urn:schemas-microsoft-com:office:smarttags"
+ name="chmetcnv"/>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>talin</o:Author>
+  <o:Template>Normal</o:Template>
+  <o:LastAuthor>ST6</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>122</o:TotalTime>
+  <o:LastPrinted>2010-07-29T15:42:00Z</o:LastPrinted>
+  <o:Created>2022-01-02T13:32:00Z</o:Created>
+  <o:LastSaved>2022-01-02T13:32:00Z</o:LastSaved>
+  <o:Pages>4</o:Pages>
+  <o:Words>1047</o:Words>
+  <o:Characters>5973</o:Characters>
+  <o:Lines>49</o:Lines>
+  <o:Paragraphs>14</o:Paragraphs>
+  <o:CharactersWithSpaces>7006</o:CharactersWithSpaces>
+  <o:Version>14.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:TargetScreenSize>800x600</o:TargetScreenSize>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="26002CD.files/themedata.thmx">
+<link rel=colorSchemeMapping href="26002CD.files/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:HideSpellingErrors/>
+  <w:HideGrammaticalErrors/>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:HyphenationZone>0</w:HyphenationZone>
+  <w:DoNotHyphenateCaps/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridHorizontalSpacing>0 點</w:DrawingGridHorizontalSpacing>
+  <w:DrawingGridVerticalSpacing>0 點</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>0</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-TW</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:DoNotShadeFormData/>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:UsePrinterMetrics/>
+   <w:WW6BorderRules/>
+   <w:FootnoteLayoutLikeWW8/>
+   <w:ShapeLayoutLikeWW8/>
+   <w:AlignTablesRowByRow/>
+   <w:ForgetLastTabAlignment/>
+   <w:AutoSpaceLikeWord95/>
+   <w:LayoutRawTableWidth/>
+   <w:LayoutTableRowsApart/>
+   <w:UseWord97LineBreakingRules/>
+   <w:SelectEntireFieldWithStartOrEnd/>
+   <w:UseWord2002TableStyleRules/>
+   <w:DontUseIndentAsNumberingTabStop/>
+   <w:FELineBreak11/>
+   <w:WW11IndentRules/>
+   <w:DontAutofitConstrainedTables/>
+   <w:AutofitLikeWW11/>
+   <w:HangulWidthLikeWW11/>
+   <w:UseNormalStyleForList/>
+   <w:DontVertAlignCellWithSp/>
+   <w:DontBreakConstrainedForcedTables/>
+   <w:DontVertAlignInTxbx/>
+   <w:Word11KerningPairs/>
+   <w:CachedColBalance/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" LatentStyleCount="267">
+  <w:LsdException Locked="false" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
+   Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+ </w:LatentStyles>
+</xml><![endif]--><!--[if !mso]><object
+ classid="clsid:38481807-CA0E-42D2-BF39-B33AF135CC4D" id=ieooui></object>
+<style>
+st1\:*{behavior:url(#ieooui) }
+</style>
+<![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:新細明體;
+	panose-1:2 2 5 0 0 0 0 0 0 0;
+	mso-font-alt:PMingLiU;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611969 684719354 22 0 1048577 0;}
+@font-face
+	{font-family:新細明體;
+	panose-1:2 2 5 0 0 0 0 0 0 0;
+	mso-font-alt:PMingLiU;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611969 684719354 22 0 1048577 0;}
+@font-face
+	{font-family:標楷體;
+	panose-1:3 0 5 9 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:script;
+	mso-font-pitch:fixed;
+	mso-font-signature:3 135135232 22 0 1048577 0;}
+@font-face
+	{font-family:"\@新細明體";
+	panose-1:2 2 5 0 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611969 684719354 22 0 1048577 0;}
+@font-face
+	{font-family:"\@標楷體";
+	panose-1:3 0 5 9 0 0 0 0 0 0;
+	mso-font-charset:136;
+	mso-generic-font-family:script;
+	mso-font-pitch:fixed;
+	mso-font-signature:3 135135232 22 0 1048577 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	font-size:14.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:標楷體;}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-noshow:yes;
+	mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	font-size:14.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:標楷體;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	mso-layout-grid-align:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:標楷體;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	mso-layout-grid-align:none;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:標楷體;}
+span.MsoCommentReference
+	{mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-ansi-font-size:9.0pt;
+	mso-bidi-font-size:9.0pt;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:16.0pt;
+	mso-line-height-rule:exactly;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	font-size:13.0pt;
+	font-family:標楷體;
+	mso-bidi-font-family:"Times New Roman";
+	letter-spacing:-.8pt;}
+a:link, span.MsoHyperlink
+	{mso-style-unhide:no;
+	mso-style-parent:"";
+	color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-unhide:no;
+	mso-style-parent:"";
+	color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-parent:註解文字;
+	mso-style-next:註解文字;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	font-size:14.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:標楷體;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-noshow:yes;
+	mso-style-unhide:no;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	mso-layout-grid-align:none;
+	font-size:9.0pt;
+	font-family:"Arial","sans-serif";
+	mso-fareast-font-family:新細明體;
+	mso-bidi-font-family:"Times New Roman";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	mso-fareast-font-family:新細明體;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;
+	mso-footnote-separator:url("26002CD.files/header.htm") fs;
+	mso-footnote-continuation-separator:url("26002CD.files/header.htm") fcs;
+	mso-endnote-separator:url("26002CD.files/header.htm") es;
+	mso-endnote-continuation-separator:url("26002CD.files/header.htm") ecs;
+	mso-endnote-position:end-of-section;
+	mso-endnote-numbering-style:arabic;
+	mso-endnote-numbering-start:0;}
+@page WordSection1
+	{size:21.0cm 842.0pt;
+	margin:51.05pt 2.0cm 51.05pt 70.9pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:42.55pt;
+	mso-even-footer:url("26002CD.files/header.htm") ef1;
+	mso-footer:url("26002CD.files/header.htm") f1;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;
+	mso-endnote-numbering-style:arabic;
+	mso-endnote-numbering-start:0;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:215437478;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-875919354 -869902000 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-text:"\(%1\)";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-36.0pt;}
+@list l0:level2
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%2、;
+	mso-level-tab-stop:48.0pt;
+	mso-level-number-position:left;
+	margin-left:48.0pt;
+	text-indent:-24.0pt;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:right;
+	margin-left:72.0pt;
+	text-indent:-24.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:96.0pt;
+	mso-level-number-position:left;
+	margin-left:96.0pt;
+	text-indent:-24.0pt;}
+@list l0:level5
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%5、;
+	mso-level-tab-stop:120.0pt;
+	mso-level-number-position:left;
+	margin-left:120.0pt;
+	text-indent:-24.0pt;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:right;
+	margin-left:144.0pt;
+	text-indent:-24.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:168.0pt;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-24.0pt;}
+@list l0:level8
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%8、;
+	mso-level-tab-stop:192.0pt;
+	mso-level-number-position:left;
+	margin-left:192.0pt;
+	text-indent:-24.0pt;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:right;
+	margin-left:216.0pt;
+	text-indent:-24.0pt;}
+@list l1
+	{mso-list-id:449862615;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1984733184 -1573338302 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:＊;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;
+	font-family:標楷體;
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:��;
+	mso-level-tab-stop:48.0pt;
+	mso-level-number-position:left;
+	margin-left:48.0pt;
+	text-indent:-24.0pt;
+	font-family:Wingdings;}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:��;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-24.0pt;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:��;
+	mso-level-tab-stop:96.0pt;
+	mso-level-number-position:left;
+	margin-left:96.0pt;
+	text-indent:-24.0pt;
+	font-family:Wingdings;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:��;
+	mso-level-tab-stop:120.0pt;
+	mso-level-number-position:left;
+	margin-left:120.0pt;
+	text-indent:-24.0pt;
+	font-family:Wingdings;}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:��;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	margin-left:144.0pt;
+	text-indent:-24.0pt;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:��;
+	mso-level-tab-stop:168.0pt;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-24.0pt;
+	font-family:Wingdings;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:��;
+	mso-level-tab-stop:192.0pt;
+	mso-level-number-position:left;
+	margin-left:192.0pt;
+	text-indent:-24.0pt;
+	font-family:Wingdings;}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:��;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	margin-left:216.0pt;
+	text-indent:-24.0pt;
+	font-family:Wingdings;}
+@list l2
+	{mso-list-id:519971035;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1190735546 658043320 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l2:level1
+	{mso-level-tab-stop:32.0pt;
+	mso-level-number-position:left;
+	margin-left:32.0pt;
+	text-indent:-18.0pt;
+	mso-ascii-font-family:"Times New Roman";}
+@list l2:level2
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%2、;
+	mso-level-tab-stop:62.0pt;
+	mso-level-number-position:left;
+	margin-left:62.0pt;
+	text-indent:-24.0pt;}
+@list l2:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:86.0pt;
+	mso-level-number-position:right;
+	margin-left:86.0pt;
+	text-indent:-24.0pt;}
+@list l2:level4
+	{mso-level-tab-stop:110.0pt;
+	mso-level-number-position:left;
+	margin-left:110.0pt;
+	text-indent:-24.0pt;}
+@list l2:level5
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%5、;
+	mso-level-tab-stop:134.0pt;
+	mso-level-number-position:left;
+	margin-left:134.0pt;
+	text-indent:-24.0pt;}
+@list l2:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:158.0pt;
+	mso-level-number-position:right;
+	margin-left:158.0pt;
+	text-indent:-24.0pt;}
+@list l2:level7
+	{mso-level-tab-stop:182.0pt;
+	mso-level-number-position:left;
+	margin-left:182.0pt;
+	text-indent:-24.0pt;}
+@list l2:level8
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%8、;
+	mso-level-tab-stop:206.0pt;
+	mso-level-number-position:left;
+	margin-left:206.0pt;
+	text-indent:-24.0pt;}
+@list l2:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:230.0pt;
+	mso-level-number-position:right;
+	margin-left:230.0pt;
+	text-indent:-24.0pt;}
+@list l3
+	{mso-list-id:633683868;
+	mso-list-type:hybrid;
+	mso-list-template-ids:106086272 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l3:level1
+	{mso-level-tab-stop:48.0pt;
+	mso-level-number-position:left;
+	margin-left:48.0pt;
+	text-indent:-24.0pt;}
+@list l3:level2
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%2、;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-24.0pt;}
+@list l3:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:96.0pt;
+	mso-level-number-position:right;
+	margin-left:96.0pt;
+	text-indent:-24.0pt;}
+@list l3:level4
+	{mso-level-tab-stop:120.0pt;
+	mso-level-number-position:left;
+	margin-left:120.0pt;
+	text-indent:-24.0pt;}
+@list l3:level5
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%5、;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	margin-left:144.0pt;
+	text-indent:-24.0pt;}
+@list l3:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:168.0pt;
+	mso-level-number-position:right;
+	margin-left:168.0pt;
+	text-indent:-24.0pt;}
+@list l3:level7
+	{mso-level-tab-stop:192.0pt;
+	mso-level-number-position:left;
+	margin-left:192.0pt;
+	text-indent:-24.0pt;}
+@list l3:level8
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%8、;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	margin-left:216.0pt;
+	text-indent:-24.0pt;}
+@list l3:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:240.0pt;
+	mso-level-number-position:right;
+	margin-left:240.0pt;
+	text-indent:-24.0pt;}
+@list l4
+	{mso-list-id:666060734;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-598170302 175944410 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l4:level1
+	{mso-level-number-format:taiwanese-counting-thousand;
+	mso-level-text:"\(%1\)";
+	mso-level-tab-stop:43.15pt;
+	mso-level-number-position:left;
+	margin-left:43.15pt;
+	text-indent:-36.0pt;
+	mso-ansi-font-size:13.0pt;}
+@list l4:level2
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%2、;
+	mso-level-tab-stop:55.15pt;
+	mso-level-number-position:left;
+	margin-left:55.15pt;
+	text-indent:-24.0pt;}
+@list l4:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:79.15pt;
+	mso-level-number-position:right;
+	margin-left:79.15pt;
+	text-indent:-24.0pt;}
+@list l4:level4
+	{mso-level-tab-stop:103.15pt;
+	mso-level-number-position:left;
+	margin-left:103.15pt;
+	text-indent:-24.0pt;}
+@list l4:level5
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%5、;
+	mso-level-tab-stop:127.15pt;
+	mso-level-number-position:left;
+	margin-left:127.15pt;
+	text-indent:-24.0pt;}
+@list l4:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:151.15pt;
+	mso-level-number-position:right;
+	margin-left:151.15pt;
+	text-indent:-24.0pt;}
+@list l4:level7
+	{mso-level-tab-stop:175.15pt;
+	mso-level-number-position:left;
+	margin-left:175.15pt;
+	text-indent:-24.0pt;}
+@list l4:level8
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%8、;
+	mso-level-tab-stop:199.15pt;
+	mso-level-number-position:left;
+	margin-left:199.15pt;
+	text-indent:-24.0pt;}
+@list l4:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:223.15pt;
+	mso-level-number-position:right;
+	margin-left:223.15pt;
+	text-indent:-24.0pt;}
+@list l5
+	{mso-list-id:747188293;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1433795296 -1526923650 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l5:level1
+	{mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l5:level2
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%2、;
+	mso-level-tab-stop:48.0pt;
+	mso-level-number-position:left;
+	margin-left:48.0pt;
+	text-indent:-24.0pt;}
+@list l5:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:right;
+	margin-left:72.0pt;
+	text-indent:-24.0pt;}
+@list l5:level4
+	{mso-level-tab-stop:96.0pt;
+	mso-level-number-position:left;
+	margin-left:96.0pt;
+	text-indent:-24.0pt;}
+@list l5:level5
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%5、;
+	mso-level-tab-stop:120.0pt;
+	mso-level-number-position:left;
+	margin-left:120.0pt;
+	text-indent:-24.0pt;}
+@list l5:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:right;
+	margin-left:144.0pt;
+	text-indent:-24.0pt;}
+@list l5:level7
+	{mso-level-tab-stop:168.0pt;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-24.0pt;}
+@list l5:level8
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%8、;
+	mso-level-tab-stop:192.0pt;
+	mso-level-number-position:left;
+	margin-left:192.0pt;
+	text-indent:-24.0pt;}
+@list l5:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:right;
+	margin-left:216.0pt;
+	text-indent:-24.0pt;}
+@list l6
+	{mso-list-id:1183937207;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1652870186 482134918 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l6:level1
+	{mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l6:level2
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%2、;
+	mso-level-tab-stop:48.0pt;
+	mso-level-number-position:left;
+	margin-left:48.0pt;
+	text-indent:-24.0pt;}
+@list l6:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:right;
+	margin-left:72.0pt;
+	text-indent:-24.0pt;}
+@list l6:level4
+	{mso-level-tab-stop:96.0pt;
+	mso-level-number-position:left;
+	margin-left:96.0pt;
+	text-indent:-24.0pt;}
+@list l6:level5
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%5、;
+	mso-level-tab-stop:120.0pt;
+	mso-level-number-position:left;
+	margin-left:120.0pt;
+	text-indent:-24.0pt;}
+@list l6:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:right;
+	margin-left:144.0pt;
+	text-indent:-24.0pt;}
+@list l6:level7
+	{mso-level-tab-stop:168.0pt;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-24.0pt;}
+@list l6:level8
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%8、;
+	mso-level-tab-stop:192.0pt;
+	mso-level-number-position:left;
+	margin-left:192.0pt;
+	text-indent:-24.0pt;}
+@list l6:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:right;
+	margin-left:216.0pt;
+	text-indent:-24.0pt;}
+@list l7
+	{mso-list-id:1191799100;
+	mso-list-type:hybrid;
+	mso-list-template-ids:740070224 1753005678 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l7:level1
+	{mso-level-tab-stop:90.95pt;
+	mso-level-number-position:left;
+	margin-left:90.95pt;
+	text-indent:-18.0pt;}
+@list l7:level2
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%2、;
+	mso-level-tab-stop:120.95pt;
+	mso-level-number-position:left;
+	margin-left:120.95pt;
+	text-indent:-24.0pt;}
+@list l7:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:144.95pt;
+	mso-level-number-position:right;
+	margin-left:144.95pt;
+	text-indent:-24.0pt;}
+@list l7:level4
+	{mso-level-tab-stop:168.95pt;
+	mso-level-number-position:left;
+	margin-left:168.95pt;
+	text-indent:-24.0pt;}
+@list l7:level5
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%5、;
+	mso-level-tab-stop:192.95pt;
+	mso-level-number-position:left;
+	margin-left:192.95pt;
+	text-indent:-24.0pt;}
+@list l7:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:216.95pt;
+	mso-level-number-position:right;
+	margin-left:216.95pt;
+	text-indent:-24.0pt;}
+@list l7:level7
+	{mso-level-tab-stop:240.95pt;
+	mso-level-number-position:left;
+	margin-left:240.95pt;
+	text-indent:-24.0pt;}
+@list l7:level8
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%8、;
+	mso-level-tab-stop:264.95pt;
+	mso-level-number-position:left;
+	margin-left:264.95pt;
+	text-indent:-24.0pt;}
+@list l7:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:288.95pt;
+	mso-level-number-position:right;
+	margin-left:288.95pt;
+	text-indent:-24.0pt;}
+@list l8
+	{mso-list-id:1267271086;
+	mso-list-type:hybrid;
+	mso-list-template-ids:650271876 -895576696 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l8:level1
+	{mso-level-number-format:taiwanese-counting-thousand;
+	mso-level-text:"\(%1\)";
+	mso-level-tab-stop:41.65pt;
+	mso-level-number-position:left;
+	margin-left:41.65pt;
+	text-indent:-36.0pt;}
+@list l8:level2
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%2、;
+	mso-level-tab-stop:53.65pt;
+	mso-level-number-position:left;
+	margin-left:53.65pt;
+	text-indent:-24.0pt;}
+@list l8:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:77.65pt;
+	mso-level-number-position:right;
+	margin-left:77.65pt;
+	text-indent:-24.0pt;}
+@list l8:level4
+	{mso-level-tab-stop:101.65pt;
+	mso-level-number-position:left;
+	margin-left:101.65pt;
+	text-indent:-24.0pt;}
+@list l8:level5
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%5、;
+	mso-level-tab-stop:125.65pt;
+	mso-level-number-position:left;
+	margin-left:125.65pt;
+	text-indent:-24.0pt;}
+@list l8:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:149.65pt;
+	mso-level-number-position:right;
+	margin-left:149.65pt;
+	text-indent:-24.0pt;}
+@list l8:level7
+	{mso-level-tab-stop:173.65pt;
+	mso-level-number-position:left;
+	margin-left:173.65pt;
+	text-indent:-24.0pt;}
+@list l8:level8
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%8、;
+	mso-level-tab-stop:197.65pt;
+	mso-level-number-position:left;
+	margin-left:197.65pt;
+	text-indent:-24.0pt;}
+@list l8:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:221.65pt;
+	mso-level-number-position:right;
+	margin-left:221.65pt;
+	text-indent:-24.0pt;}
+@list l9
+	{mso-list-id:1267737010;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1622748264 -1972496260 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l9:level1
+	{mso-level-text:"\(%1\)";
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-36.0pt;}
+@list l9:level2
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%2、;
+	mso-level-tab-stop:48.0pt;
+	mso-level-number-position:left;
+	margin-left:48.0pt;
+	text-indent:-24.0pt;}
+@list l9:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:right;
+	margin-left:72.0pt;
+	text-indent:-24.0pt;}
+@list l9:level4
+	{mso-level-tab-stop:96.0pt;
+	mso-level-number-position:left;
+	margin-left:96.0pt;
+	text-indent:-24.0pt;}
+@list l9:level5
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%5、;
+	mso-level-tab-stop:120.0pt;
+	mso-level-number-position:left;
+	margin-left:120.0pt;
+	text-indent:-24.0pt;}
+@list l9:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:right;
+	margin-left:144.0pt;
+	text-indent:-24.0pt;}
+@list l9:level7
+	{mso-level-tab-stop:168.0pt;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-24.0pt;}
+@list l9:level8
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%8、;
+	mso-level-tab-stop:192.0pt;
+	mso-level-number-position:left;
+	margin-left:192.0pt;
+	text-indent:-24.0pt;}
+@list l9:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:right;
+	margin-left:216.0pt;
+	text-indent:-24.0pt;}
+@list l10
+	{mso-list-id:1316102142;
+	mso-list-type:hybrid;
+	mso-list-template-ids:648033150 67698703 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l10:level1
+	{mso-level-tab-stop:48.0pt;
+	mso-level-number-position:left;
+	margin-left:48.0pt;
+	text-indent:-24.0pt;}
+@list l10:level2
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%2、;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-24.0pt;}
+@list l10:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:96.0pt;
+	mso-level-number-position:right;
+	margin-left:96.0pt;
+	text-indent:-24.0pt;}
+@list l10:level4
+	{mso-level-tab-stop:120.0pt;
+	mso-level-number-position:left;
+	margin-left:120.0pt;
+	text-indent:-24.0pt;}
+@list l10:level5
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%5、;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	margin-left:144.0pt;
+	text-indent:-24.0pt;}
+@list l10:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:168.0pt;
+	mso-level-number-position:right;
+	margin-left:168.0pt;
+	text-indent:-24.0pt;}
+@list l10:level7
+	{mso-level-tab-stop:192.0pt;
+	mso-level-number-position:left;
+	margin-left:192.0pt;
+	text-indent:-24.0pt;}
+@list l10:level8
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%8、;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	margin-left:216.0pt;
+	text-indent:-24.0pt;}
+@list l10:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:240.0pt;
+	mso-level-number-position:right;
+	margin-left:240.0pt;
+	text-indent:-24.0pt;}
+@list l11
+	{mso-list-id:1633553279;
+	mso-list-type:hybrid;
+	mso-list-template-ids:648722958 -8981946 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l11:level1
+	{mso-level-number-format:taiwanese-counting-thousand;
+	mso-level-text:%1、;
+	mso-level-tab-stop:36.3pt;
+	mso-level-number-position:left;
+	margin-left:36.3pt;
+	text-indent:-36.0pt;}
+@list l11:level2
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%2、;
+	mso-level-tab-stop:48.3pt;
+	mso-level-number-position:left;
+	margin-left:48.3pt;
+	text-indent:-24.0pt;}
+@list l11:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:72.3pt;
+	mso-level-number-position:right;
+	margin-left:72.3pt;
+	text-indent:-24.0pt;}
+@list l11:level4
+	{mso-level-tab-stop:96.3pt;
+	mso-level-number-position:left;
+	margin-left:96.3pt;
+	text-indent:-24.0pt;}
+@list l11:level5
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%5、;
+	mso-level-tab-stop:120.3pt;
+	mso-level-number-position:left;
+	margin-left:120.3pt;
+	text-indent:-24.0pt;}
+@list l11:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:144.3pt;
+	mso-level-number-position:right;
+	margin-left:144.3pt;
+	text-indent:-24.0pt;}
+@list l11:level7
+	{mso-level-tab-stop:168.3pt;
+	mso-level-number-position:left;
+	margin-left:168.3pt;
+	text-indent:-24.0pt;}
+@list l11:level8
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%8、;
+	mso-level-tab-stop:192.3pt;
+	mso-level-number-position:left;
+	margin-left:192.3pt;
+	text-indent:-24.0pt;}
+@list l11:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:216.3pt;
+	mso-level-number-position:right;
+	margin-left:216.3pt;
+	text-indent:-24.0pt;}
+@list l12
+	{mso-list-id:1679769265;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1003491500 -997265646 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l12:level1
+	{mso-level-number-format:alpha-upper;
+	mso-level-tab-stop:18.0pt;
+	mso-level-number-position:left;
+	margin-left:18.0pt;
+	text-indent:-18.0pt;}
+@list l12:level2
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%2、;
+	mso-level-tab-stop:48.0pt;
+	mso-level-number-position:left;
+	margin-left:48.0pt;
+	text-indent:-24.0pt;}
+@list l12:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:right;
+	margin-left:72.0pt;
+	text-indent:-24.0pt;}
+@list l12:level4
+	{mso-level-tab-stop:96.0pt;
+	mso-level-number-position:left;
+	margin-left:96.0pt;
+	text-indent:-24.0pt;}
+@list l12:level5
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%5、;
+	mso-level-tab-stop:120.0pt;
+	mso-level-number-position:left;
+	margin-left:120.0pt;
+	text-indent:-24.0pt;}
+@list l12:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:right;
+	margin-left:144.0pt;
+	text-indent:-24.0pt;}
+@list l12:level7
+	{mso-level-tab-stop:168.0pt;
+	mso-level-number-position:left;
+	margin-left:168.0pt;
+	text-indent:-24.0pt;}
+@list l12:level8
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%8、;
+	mso-level-tab-stop:192.0pt;
+	mso-level-number-position:left;
+	margin-left:192.0pt;
+	text-indent:-24.0pt;}
+@list l12:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:right;
+	margin-left:216.0pt;
+	text-indent:-24.0pt;}
+@list l13
+	{mso-list-id:1995376228;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1930555692 -882232726 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l13:level1
+	{mso-level-number-format:taiwanese-counting-thousand;
+	mso-level-text:%1、;
+	mso-level-tab-stop:36.2pt;
+	mso-level-number-position:left;
+	margin-left:36.2pt;
+	text-indent:-36.0pt;}
+@list l13:level2
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%2、;
+	mso-level-tab-stop:48.2pt;
+	mso-level-number-position:left;
+	margin-left:48.2pt;
+	text-indent:-24.0pt;}
+@list l13:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:72.2pt;
+	mso-level-number-position:right;
+	margin-left:72.2pt;
+	text-indent:-24.0pt;}
+@list l13:level4
+	{mso-level-tab-stop:96.2pt;
+	mso-level-number-position:left;
+	margin-left:96.2pt;
+	text-indent:-24.0pt;}
+@list l13:level5
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%5、;
+	mso-level-tab-stop:120.2pt;
+	mso-level-number-position:left;
+	margin-left:120.2pt;
+	text-indent:-24.0pt;}
+@list l13:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:144.2pt;
+	mso-level-number-position:right;
+	margin-left:144.2pt;
+	text-indent:-24.0pt;}
+@list l13:level7
+	{mso-level-tab-stop:168.2pt;
+	mso-level-number-position:left;
+	margin-left:168.2pt;
+	text-indent:-24.0pt;}
+@list l13:level8
+	{mso-level-number-format:ideograph-traditional;
+	mso-level-text:%8、;
+	mso-level-tab-stop:192.2pt;
+	mso-level-number-position:left;
+	margin-left:192.2pt;
+	text-indent:-24.0pt;}
+@list l13:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:216.2pt;
+	mso-level-number-position:right;
+	margin-left:216.2pt;
+	text-indent:-24.0pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:表格內文;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-unhide:no;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman","serif";}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="2049"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-TW link=blue vlink=purple style='tab-interval:24.0pt'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal align=center style='margin-top:3.6pt;margin-right:0cm;
+margin-bottom:3.6pt;margin-left:.3pt;mso-para-margin-top:.3gd;mso-para-margin-right:
+0cm;mso-para-margin-bottom:.3gd;mso-para-margin-left:.3pt;text-align:center;
+line-height:18.0pt;mso-line-height-rule:exactly'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:16.0pt;font-family:標楷體;mso-ascii-font-family:
+"Times New Roman"'>中五</span></b><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='font-size:16.0pt'>~</span></b><b style='mso-bidi-font-weight:
+normal'><span style='font-size:16.0pt;font-family:標楷體;mso-ascii-font-family:
+"Times New Roman"'>八機</span></b><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='font-size:16.0pt'>CP</span></b><b style='mso-bidi-font-weight:
+normal'><span style='font-size:16.0pt;font-family:標楷體;mso-ascii-font-family:
+"Times New Roman"'>大修後取載試運轉操作查核表</span></b><b style='mso-bidi-font-weight:normal'><span
+lang=EN-US style='font-size:16.0pt'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='margin-top:3.6pt;margin-right:31.95pt;margin-bottom:
+3.6pt;margin-left:.3pt;mso-para-margin-top:.3gd;mso-para-margin-right:31.95pt;
+mso-para-margin-bottom:.3gd;mso-para-margin-left:.02gd;text-indent:376.55pt;
+mso-char-indent-count:23.49;line-height:18.0pt;mso-line-height-rule:exactly'><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:16.0pt'>-26002<o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='margin-top:3.6pt;margin-right:0cm;
+margin-bottom:3.6pt;margin-left:.3pt;mso-para-margin-top:.3gd;mso-para-margin-right:
+0cm;mso-para-margin-bottom:.3gd;mso-para-margin-left:.3pt;text-align:left;
+line-height:18.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'><span style='mso-spacerun:yes'>&nbsp;&nbsp;
+</span></span><span style='mso-bidi-font-size:14.0pt;font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>機組編號：</span><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='mso-bidi-font-size:14.0pt;font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>操作日期：</span><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='mso-bidi-font-size:14.0pt;font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>起動台：</span><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-top:3.6pt;margin-right:0cm;
+margin-bottom:3.6pt;margin-left:.3pt;mso-para-margin-top:.3gd;mso-para-margin-right:
+0cm;mso-para-margin-bottom:.3gd;mso-para-margin-left:.3pt;text-align:left;
+line-height:18.0pt;mso-line-height-rule:exactly'><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>一、名稱：</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>CP</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>取載試運轉操作程序（大修後初次起動）</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-top:3.6pt;margin-right:0cm;margin-bottom:3.6pt;
+margin-left:.3pt;mso-para-margin-top:.3gd;mso-para-margin-right:0cm;mso-para-margin-bottom:
+.3gd;mso-para-margin-left:.3pt;line-height:18.0pt;mso-line-height-rule:exactly'><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>二、注意事項：</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>(</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>開工具箱會議</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:32.05pt;mso-para-margin-left:.51gd;
+text-indent:-24.9pt;mso-char-indent-count:-1.78;line-height:18.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt'>(</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>一</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>)</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>冷凝水泵於大修後初次起動，須特別注意取載時的管路流程隔離操作，以免造成溢流事件。冷凝水泵按起動時，現場應加強警戒與巡視，若發現溢流現象應立即停用。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:32.05pt;mso-para-margin-left:.51gd;
+text-indent:-24.9pt;mso-char-indent-count:-1.78;line-height:18.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt'>(</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>二</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>)</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>現場操作時應兩人同行，執行互核程序。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:32.05pt;mso-para-margin-left:.51gd;
+text-indent:-24.9pt;mso-char-indent-count:-1.78;line-height:18.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt'>(</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>三</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>)</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>欲起動台馬達冷卻水進出口閥開啟</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>(</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>採用廠用水冷卻上軸承</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>)</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>，馬達下軸承油位正常。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:32.05pt;mso-para-margin-left:.51gd;
+text-indent:-24.9pt;mso-char-indent-count:-1.78;line-height:18.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt'>(</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>四</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>)</span><span lang=EN-US>Hotwell </span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>水位補至</span><st1:chmetcnv
+UnitName="米" SourceValue="1.2" HasSpace="False" Negative="False" NumberType="1"
+TCSC="0" w:st="on"><span lang=EN-US>1.2</span><span style='font-family:標楷體;
+ mso-ascii-font-family:"Times New Roman"'>米</span></st1:chmetcnv><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>以上、</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>管路流程隔離操作完成、</span><span
+lang=EN-US>SWP</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>起動運轉</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>，</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;color:black;mso-bidi-font-weight:
+bold'>CD </span><span lang=EN-US style='mso-bidi-font-size:14.0pt'>Cooler</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";color:black;mso-bidi-font-weight:bold'>冷凝水出口閥</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+color:black'>再次</span><span style='mso-bidi-font-size:14.0pt;font-family:標楷體;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+color:black;mso-bidi-font-weight:bold'>確認</span><span lang=EN-US
+style='mso-bidi-font-size:14.0pt;color:black;mso-bidi-font-weight:bold'>F/C</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman";color:black'>、</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;color:black;mso-bidi-font-weight:
+bold'>Polishers</span><span style='mso-bidi-font-size:14.0pt;font-family:標楷體;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+color:black;mso-bidi-font-weight:bold'>需處於</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";color:black;
+mso-bidi-font-weight:bold'>備用狀態</span><span lang=EN-US style='mso-bidi-font-size:
+14.0pt;mso-hansi-font-family:標楷體;color:black'>(</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>依據</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;color:black;mso-bidi-font-weight:
+bold'>CD </span><span lang=EN-US style='mso-bidi-font-size:14.0pt'>Cooler</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>漏海水，污染系統水事件之檢討經驗</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'>)</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>，</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>且冷凝水泵取載操作準備完成，方可起動取載。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:32.05pt;mso-para-margin-left:.51gd;
+text-indent:-24.9pt;mso-char-indent-count:-1.78;line-height:18.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt'>(</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>五</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>)</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>冷凝水泵最低安全流量為</span><st1:chmetcnv
+TCSC="0" NumberType="1" Negative="False" HasSpace="True" SourceValue="187.4"
+UnitName="m3" w:st="on"><span lang=EN-US style='mso-bidi-font-size:14.0pt'>187.4
+ m3</span></st1:chmetcnv><span lang=EN-US style='mso-bidi-font-size:14.0pt'>/hr</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>；馬達額定電流為</span><st1:chmetcnv
+TCSC="0" NumberType="1" Negative="False" HasSpace="False" SourceValue="69.3"
+UnitName="a" w:st="on"><span lang=EN-US style='mso-bidi-font-size:14.0pt'>69.3A</span></st1:chmetcnv><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>；出口壓力約為</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>2.35Mpa</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:32.05pt;mso-para-margin-left:.51gd;
+text-indent:-24.9pt;mso-char-indent-count:-1.78;line-height:18.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt'>(</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>六</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>)</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>起動後現場每一操作前、後，應與爐控聯繫並回報。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:32.05pt;mso-para-margin-left:.51gd;
+text-indent:-24.9pt;mso-char-indent-count:-1.78;line-height:18.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt'>(</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體'>七</span><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>)</span><span style='mso-bidi-font-size:14.0pt;
+font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>格蘭水封壓力正常，水從格蘭微漏出。起動前由除礦水供應（<span
+style='color:black;mso-bidi-font-weight:bold'>緊急水封</span>），約</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>250kpag</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>，起動後改由</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>CP</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>出口管路</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>供給自封。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:32.05pt;mso-para-margin-left:.51gd;
+text-indent:-24.9pt;mso-char-indent-count:-1.78;line-height:18.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt'>(</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>八</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>)</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>運轉中冷凝水濾網差壓需小於</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>10Kpa</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>以下。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:32.05pt;mso-para-margin-left:.51gd;
+text-indent:-24.9pt;mso-char-indent-count:-1.78;line-height:18.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt'>(</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>九</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>)</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>運轉取載期間，現場及控制室應隨時注意運轉狀況是否正常。並配合汽機組注意有無異聲及軸承振動情形。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:32.2pt;mso-para-margin-left:.5gd;
+text-indent:-25.2pt;mso-char-indent-count:-1.8;line-height:18.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt'>(</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>十</span><b><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>)</span></b><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";color:black;mso-bidi-font-weight:bold'>冷凝水進入</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;color:black;mso-bidi-font-weight:
+bold'>CD </span><span lang=EN-US style='mso-bidi-font-size:14.0pt'>Cooler</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";color:black;mso-bidi-font-weight:bold'>後，聯絡環化水處理二課取樣化驗氯離子含量，確認符合標準。若氯離子含量異常時，則依</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;color:black;mso-bidi-font-weight:
+bold'>”</span><span style='mso-bidi-font-size:14.0pt;font-family:標楷體;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+color:black;mso-bidi-font-weight:bold'>環化</span><span lang=EN-US
+style='mso-bidi-font-size:14.0pt;color:black;mso-bidi-font-weight:bold'>”</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";color:black;mso-bidi-font-weight:bold'>交代操作。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;color:black;mso-bidi-font-weight:
+bold'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:32.2pt;mso-para-margin-left:.5gd;
+text-indent:-25.2pt;mso-char-indent-count:-1.8;line-height:18.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt;color:black'>(</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";color:black'>十</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+color:black;mso-bidi-font-weight:bold'>一</span><span lang=EN-US
+style='mso-bidi-font-size:14.0pt;color:black'>)</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";color:black'>冷凝水泵取載期間，聯絡環化水處理二課加</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>藥</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>(</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>注氨</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>)</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>與量測冷凝水導電度、</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>PH</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>值。並會同汽輔一課實施</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>CD Cooler × 2</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>查漏。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:36.25pt;mso-para-margin-left:.51gd;
+text-indent:-29.1pt;mso-char-indent-count:-2.08;line-height:18.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-top:3.6pt;margin-right:0cm;margin-bottom:3.6pt;
+margin-left:0cm;mso-para-margin-top:.3gd;mso-para-margin-right:0cm;mso-para-margin-bottom:
+.3gd;mso-para-margin-left:0cm;line-height:18.0pt;mso-line-height-rule:exactly'><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>三、執行操作程序</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>(CD &amp; H<st1:chmetcnv TCSC="0"
+NumberType="1" Negative="False" HasSpace="True" SourceValue="2" UnitName="C"
+w:st="on">2 C</st1:chmetcnv>ooler</span><span style='mso-bidi-font-size:14.0pt;
+font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>掛卡中</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>)</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>：</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>1.</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>確認該冷凝水泵取載聯絡書並已完成馬達試空轉。</span></p>
+
+<p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>2.</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>確認無檢修工作，無相關工作聯絡單，並確認</span><span
+lang=EN-US>SW</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>系統可正常使用。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:42.4pt;text-indent:-42.4pt;mso-char-indent-count:
+-3.03;line-height:20.0pt;mso-line-height-rule:exactly'><u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>3.</span><span lang=EN-US>DW-010</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>控制閥置</span><span
+lang=EN-US>Auto</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>自動補水，</span><span
+lang=EN-US>Hotwell</span><span style='font-family:標楷體;mso-ascii-font-family:
+"Times New Roman"'>水位補至</span><st1:chmetcnv UnitName="米" SourceValue="1.2"
+HasSpace="False" Negative="False" NumberType="1" TCSC="0" w:st="on"><span
+ lang=EN-US>1.2</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>米</span></st1:chmetcnv><span
+lang=EN-US>(</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>以上</span><span
+lang=EN-US>)</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>，方</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>允許起動</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。（進料口鐵捲門邊補水關斷閥須開啟）</span><span
+lang=EN-US style='mso-hansi-font-family:標楷體'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>4.</span><span lang=EN-US>CP</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>再循環閥</span><span
+lang=EN-US>FV-CD-063</span><span style='font-family:標楷體;mso-ascii-font-family:
+"Times New Roman"'>及前後關斷閥</span><span lang=EN-US><a
+href="https://drive.google.com/file/d/17aAUC6GCrUIMWrAWTP_A2gyEE2-RATh1/view?usp=sharing">CD-42<span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>、</span></span>CD-43<span lang=EN-US style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'><span lang=EN-US>開啟</span></span></a>(4)</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:42.4pt;text-indent:-42.4pt;mso-char-indent-count:
+-3.03;line-height:20.0pt;mso-line-height-rule:exactly'><u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>5.</span><span lang=EN-US>CP</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>集管</span><span
+lang=EN-US>Vent*2</span><span lang=EN-US style='mso-hansi-font-family:標楷體'><a
+href="https://drive.google.com/file/d/1JoDsTGOal3jCBKcx1070THZoKv6sPF4H/view?usp=sharing"><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>（</span></span><span style='mso-hansi-font-family:"Times New Roman"'>CD-195</span><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>及後關斷閥）</span></span></a>(5)</span><span style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>開啟。</span><span lang=EN-US
+style='mso-hansi-font-family:標楷體'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:42.4pt;text-indent:-42.4pt;mso-char-indent-count:
+-3.03;line-height:20.0pt;mso-line-height-rule:exactly'><u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>6<b><span style='color:red'> </span></b><span
+style='color:black;mso-bidi-font-weight:bold'>CD </span>Cooler</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";color:black;mso-bidi-font-weight:bold'>冷凝水出口閥</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;color:black;mso-bidi-font-weight:
+bold'><a
+href="https://drive.google.com/file/d/1zZLpWFmXJkU_q5R3xPe9Uy6gL0l5vp7I/view?usp=sharing">CD-12/13<span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'><span lang=EN-US>確認</span></span>F/C<span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-bidi-font-weight:normal'><span lang=EN-US>狀態</span></span></a>(6)</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。</span><span
+lang=EN-US style='mso-hansi-font-family:標楷體'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:42.0pt;text-indent:-42.0pt;mso-char-indent-count:
+-3.0;line-height:20.0pt;mso-line-height-rule:exactly'><u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>7.</span><span lang=EN-US>H<sub>2</sub> Cooler×4</span><span
+style='font-family:標楷體'>組</span><span style='font-family:標楷體;mso-ascii-font-family:
+"Times New Roman";mso-hansi-font-family:"Times New Roman"'>隔離</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>中</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>，</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>須再次確認進口閥</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'><a
+href="https://drive.google.com/file/d/1qBrqS4_8mqv0_kKZIRG1cgz9Swrfgkif/view?usp=sharing">CD-15<span
+lang=EN-US style='mso-bidi-font-size:10.0pt;font-family:標楷體;mso-ascii-font-family:
+"Times New Roman"'><span lang=EN-US>、</span></span>16<span lang=EN-US
+style='mso-bidi-font-size:10.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>、</span></span>17<span lang=EN-US style='mso-bidi-font-size:10.0pt;
+font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span lang=EN-US>、</span></span>18
+F/C</a>(7-1)</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>；</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>出口閥</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'><a
+href="https://drive.google.com/file/d/1NbE-kUsXh87haQ63xFndvXWI_DuV3rGd/view?usp=sharing">CD-19<span
+lang=EN-US style='mso-bidi-font-size:10.0pt;font-family:標楷體;mso-ascii-font-family:
+"Times New Roman"'><span lang=EN-US>、</span></span>20<span lang=EN-US
+style='mso-bidi-font-size:10.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>、</span></span>21<span lang=EN-US style='mso-bidi-font-size:10.0pt;
+font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span lang=EN-US>、</span></span>22<span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>亦</span></span>F/C</a>(7-2)</span><span style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>。</span><span lang=EN-US
+style='mso-hansi-font-family:標楷體'>(</span><span style='mso-bidi-font-size:14.0pt;
+font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>曾因未確認</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>而造成洩</span><span style='font-family:標楷體;mso-ascii-font-family:
+"Times New Roman"'>漏事件</span><span lang=EN-US style='mso-hansi-font-family:
+標楷體'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:42.4pt;text-indent:-42.4pt;mso-char-indent-count:
+-3.03;line-height:20.0pt;mso-line-height-rule:exactly'><u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>8.</span><span lang=EN-US>H<sub>2</sub>
+Cooler By-Pass Line</span><span style='font-family:標楷體;mso-ascii-font-family:
+"Times New Roman"'>：</span><span lang=EN-US>HV-CD055</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>及前後關斷閥</span><span
+lang=EN-US><a
+href="https://drive.google.com/file/d/1ewfFgKZ7shrcJtvfSQL4k0S6EaJdtw7c/view?usp=sharing">CD-27<span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>、</span></span>CD-28<span lang=EN-US style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'><span lang=EN-US>開啟</span></span></a>(8-1)</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>，</span><span
+lang=EN-US>TV-CD056</span><span style='font-family:標楷體;mso-ascii-font-family:
+"Times New Roman"'>及前後關斷閥</span><span lang=EN-US><a
+href="https://drive.google.com/file/d/1lCEW6sFPbA81TAEzJAATvhFR__fwkeKw/view?usp=sharing">CD-29<span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>、</span></span>CD-30<span lang=EN-US style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'><span lang=EN-US>開啟</span></span></a>(8-2)</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。</span></p>
+
+<p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>9.</span><span lang=EN-US><a
+href="https://drive.google.com/file/d/1EaXTAyjnAXJNomdbgy6DO9ePMzW4g24I/view?usp=sharing">CD-394
+F/O</a>(9)</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。</span></p>
+
+<p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>10.</span><span lang=EN-US>SPE</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>冷</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>凝</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>水進、出口閥</span><span
+lang=EN-US><a
+href="https://drive.google.com/file/d/1Hm8BCgJ_MEYpqEE2wtyNOVpDYXvJXIRW/view?usp=sharing">CD-24<span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>開啟</span></span></a>(10-1)</span><span style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>、</span><span lang=EN-US><a
+href="https://drive.google.com/file/d/1Lms8Zr3P4lDpBlEzKeUCe2mCzlseCloP/view?usp=sharing">CD-25<span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>開<span lang=EN-US>啟</span></span></span></a>(10-2)</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。</span></p>
+
+<p class=MsoNormal style='margin-left:49.55pt;text-indent:-49.55pt;mso-char-indent-count:
+-3.54;line-height:20.0pt;mso-line-height-rule:exactly'><u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>11.</span><span lang=EN-US><a
+href="https://drive.google.com/file/d/1TOFn_aYr8XPdpBeycxnNe_NubKthyXyZ/view?usp=sharing">LV-CD074A<span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>及閥前關斷閥</span></span>CD-45 F/C<span lang=EN-US style='font-family:
+標楷體;mso-ascii-font-family:"Times New Roman"'><span lang=EN-US>，</span></span><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>閥後洩水閥</span></span>CD-206<span lang=EN-US style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'><span lang=EN-US>開啟</span></span><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>；</span></span><o:p></o:p></a></span></p>
+
+<p class=MsoNormal style='margin-left:49.55pt;mso-para-margin-left:3.04gd;
+text-indent:-7.0pt;mso-char-indent-count:-.5;line-height:20.0pt;mso-line-height-rule:
+exactly'><span class=MsoHyperlink><span lang=EN-US><a
+href="https://drive.google.com/file/d/1TOFn_aYr8XPdpBeycxnNe_NubKthyXyZ/view?usp=sharing">LV-CD074B<span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>及閥前關斷閥</span></span>CD-48 F/C<span lang=EN-US style='font-family:
+標楷體;mso-ascii-font-family:"Times New Roman"'><span lang=EN-US>，</span></span><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>閥後洩水閥</span></span>CD-208<span lang=EN-US style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'><span lang=EN-US>開啟</span></span><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>；</span></span><o:p></o:p></a></span></span></p>
+
+<p class=MsoNormal style='margin-left:49.55pt;mso-para-margin-left:3.04gd;
+text-indent:-7.0pt;mso-char-indent-count:-.5;line-height:20.0pt;mso-line-height-rule:
+exactly'><span class=MsoHyperlink><span lang=EN-US><a
+href="https://drive.google.com/file/d/1TOFn_aYr8XPdpBeycxnNe_NubKthyXyZ/view?usp=sharing">CD-47
+F/C</a></span></span><span lang=EN-US>(11)</span><span style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>（避免冷</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>凝</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>水進入</span><span
+lang=EN-US>LP HTR</span><span style='font-family:標楷體;mso-ascii-font-family:
+"Times New Roman"'>）。</span></p>
+
+<p class=MsoNormal style='margin-left:42.4pt;text-indent:-42.4pt;mso-char-indent-count:
+-3.03;line-height:20.0pt;mso-line-height-rule:exactly'><u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>12.</span><span lang=EN-US> LP HTR</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>的端板回裝完成，避免</span><span lang=EN-US><a
+href="https://drive.google.com/file/d/1AqQcaeMi4XdsNuRPAUoyMKEXzrjZJvFL/view?usp=sharing">CD-45
+/47</a>(12)</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>因無法關死而造成洩漏</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。</span><span
+lang=EN-US><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:42.4pt;text-indent:-42.4pt;mso-char-indent-count:
+-3.03;line-height:20.0pt;mso-line-height-rule:exactly'><u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>13.</span><span lang=EN-US>BLR Fill Line </span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>補水閥</span><span
+lang=EN-US><a
+href="https://drive.google.com/file/d/1vZhv2dDibF6yz3h-bsJ6oCOV63Xi0fp1/view?usp=sharing">FW-19<span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>、</span></span>FW-21 F/C</a>(13-2)</span><span style='font-family:
+標楷體;mso-ascii-font-family:"Times New Roman"'>；</span><span lang=EN-US>FW-82</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>電動閥</span><span
+lang=EN-US>F/C</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。</span></p>
+
+<p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>14.</span><span lang=EN-US>SPE</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>緊急噴水電動閥</span><span
+lang=EN-US><a
+href="https://drive.google.com/file/d/1dTvyoaMsO_MS9t3sQ9dUBFkoDIqL2aMV/view?usp=sharing">CD-41
+F/C</a>(14)</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。</span></p>
+
+<p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>15.</span><span style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>汽機排氣殼噴水減溫電動閥</span><span lang=EN-US><a
+href="https://drive.google.com/file/d/1xry_gAz00iGau9x_QA3cgTdeXK-KpfAo/view?usp=sharing">CD-39<span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>及氣動閥</span></span>TV-CD147 F/C</a>(15)</span><span style='font-family:
+標楷體;mso-ascii-font-family:"Times New Roman"'>。</span></p>
+
+<p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly;
+tab-stops:42.55pt 49.65pt'><u><span lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>16.</span><span lang=EN-US>Hot Start Dump </span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>噴水減溫電動閥</span><span
+lang=EN-US><a
+href="https://drive.google.com/file/d/13I6TVSx70-MjRJlwBRREIEbE7iE81kyo/view?usp=sharing">CD-26
+F/C</a>(16)</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。</span></p>
+
+<p class=MsoNormal style='margin-left:47.6pt;text-indent:-47.6pt;mso-char-indent-count:
+-3.4;line-height:20.0pt;mso-line-height-rule:exactly;tab-stops:42.55pt 49.65pt'><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>17.</span><span lang=EN-US>Cold Start Dump</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>噴水減溫氣動閥</span><span
+lang=EN-US><a
+href="https://drive.google.com/file/d/1je0j2LW6JZd_68V5dUmIAh1niup2evJa/view?usp=sharing">TV-CD154<span
+lang=EN-US style='font-family:標楷體'><span lang=EN-US>、前</span></span><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>關斷閥</span></span><span style='mso-hansi-font-family:標楷體'>CD-581</span><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>及旁通閥</span></span><span style='mso-hansi-font-family:標楷體'>CD-184 </span>F/C</a>(17)</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。</span></p>
+
+<p class=MsoNormal style='margin-left:23.95pt;text-indent:-23.95pt;mso-char-indent-count:
+-1.71;line-height:20.0pt;mso-line-height-rule:exactly;tab-stops:42.55pt 49.65pt'><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;</span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>18.</span><span lang=EN-US><a
+href="https://drive.google.com/file/d/1HkNaFVzV6Nk8LiQG0FvNwCEwjQ2jBDgK/view?usp=sharing">BFP<span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>水封</span></span></a>(18-1)</span><span style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>、</span><span lang=EN-US><a
+href="https://drive.google.com/file/d/1wN9LImUKpwMLVPfRSnS6jVGBvgNSVEVk/view?usp=sharing">LPDP<span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>水封</span></span></a>(18-2)</span><span style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>，掛卡隔離檢修中，水封閥皆須隔離</span><span
+lang=EN-US>F/C</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。</span><span
+lang=EN-US style='mso-hansi-font-family:標楷體'>(</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>曾因</span><span
+lang=EN-US>BFPT/BFPM</span><span style='font-family:標楷體;mso-ascii-font-family:
+"Times New Roman"'>水封管路漏，造成</span><span lang=EN-US style='mso-hansi-font-family:
+標楷體'>PIT</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>淹水。</span><span
+lang=EN-US style='mso-hansi-font-family:標楷體'>)</span></p>
+
+<p class=MsoNormal style='margin-left:23.95pt;text-indent:-23.95pt;mso-char-indent-count:
+-1.71;line-height:20.0pt;mso-line-height-rule:exactly;tab-stops:42.55pt 49.65pt'><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>19.</span><span style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>冷</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>凝</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>水至回收水槽</span><span
+lang=EN-US style='mso-hansi-font-family:標楷體'><a
+href="https://drive.google.com/file/d/1ExTV5Fm8noDAmee_VPhflhEE85W-6QLy/view?usp=sharing"><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>關斷閥</span></span><span style='mso-hansi-font-family:"Times New Roman"'>CD-143
+F/C</span></a>(19)</span><span style='font-family:標楷體;mso-ascii-font-family:
+"Times New Roman"'>。</span></p>
+
+<p class=MsoNormal style='margin-left:49.55pt;text-indent:-49.55pt;mso-char-indent-count:
+-3.54;line-height:20.0pt;mso-line-height-rule:exactly;tab-stops:42.55pt 49.65pt'><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>20.</span><span lang=EN-US>Flash T`K</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>熱交換器冷凝水</span><span
+lang=EN-US style='mso-hansi-font-family:標楷體'><a
+href="https://drive.google.com/file/d/18px4JsM9tNtk7wHiZ7M0AVxo-zU9W8p0/view?usp=sharing"><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>進口閥</span></span><span style='mso-hansi-font-family:"Times New Roman"'>CD-509
+F/C</span></a>(20)</span><span lang=EN-US> (CD-141</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>操作不易，維持在</span><span
+lang=EN-US>F/O</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>狀態</span><span
+lang=EN-US>) </span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。</span></p>
+
+<p class=MsoNormal style='margin-left:49.55pt;text-indent:-49.55pt;mso-char-indent-count:
+-3.54;line-height:20.0pt;mso-line-height-rule:exactly;tab-stops:42.55pt 49.65pt'><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>21.</span><span style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>化學加藥</span><span lang=EN-US
+style='mso-hansi-font-family:標楷體'><a
+href="https://drive.google.com/file/d/1cHF--8VtJR1y-RVLsgQuqgf_dOebYu88/view?usp=sharing"><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>補水閥</span></span><span style='mso-hansi-font-family:"Times New Roman"'>CD-140</span></a>(21)</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>後方增設之關斷閥</span><span
+lang=EN-US>F/C</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>（</span><span
+lang=EN-US>CD-140</span><span style='font-family:標楷體;mso-ascii-font-family:
+"Times New Roman"'>操作不易，維持在</span><span lang=EN-US>F/O</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>狀態）。</span></p>
+
+<p class=MsoNormal style='margin-left:49.55pt;text-indent:-49.55pt;mso-char-indent-count:
+-3.54;line-height:20.0pt;mso-line-height-rule:exactly;tab-stops:42.55pt 49.65pt'><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>22.</span><span style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>真空破壞水封閥</span><span lang=EN-US><a
+href="https://drive.google.com/file/d/1IzrzWRGuDMRcgzeBIOMxJu9DhUpliFMp/view?usp=sharing">CD-389(22-1)</a></span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>、</span><span
+lang=EN-US><a
+href="https://drive.google.com/file/d/1-CuuAWKxpstHe_Ca4h7JCA56e5GLKdhf/view?usp=sharing">390(22-2)</a></span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>、</span><span
+lang=EN-US><a
+href="https://drive.google.com/file/d/1ZeRqqjumLHjsGY_zd-x3ZbvnA_wCBC_q/view?usp=sharing">391(22-3)</a>
+F/C</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>（</span><span
+lang=EN-US><a
+href="https://drive.google.com/file/d/1b8C9Q-GQNqTUVqyiCgDocpx2I62oUSxI/view?usp=sharing">CD-130(22-4)</a></span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>操作不易，維持在</span><span
+lang=EN-US>F/O</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>狀態）。</span></p>
+
+<p class=MsoNormal style='margin-left:23.95pt;text-indent:-23.95pt;mso-char-indent-count:
+-1.71;line-height:20.0pt;mso-line-height-rule:exactly;tab-stops:42.55pt 49.65pt'><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>23.</span><span lang=EN-US>Sample Panel <a
+href="https://drive.google.com/file/d/1eBSTDodyqOInSpCNRPr0dJT7mv6acOOy/view?usp=sharing">CD-139
+F/O</a>(23)</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>（取樣管已有節流）。</span></p>
+
+<p class=MsoNormal style='margin-left:49.55pt;text-indent:-49.55pt;mso-char-indent-count:
+-3.54;line-height:20.0pt;mso-line-height-rule:exactly;tab-stops:42.55pt 49.65pt'><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>24.</span><span style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>霧化蒸汽噴水</span><span lang=EN-US><a
+href="https://drive.google.com/file/d/1XyiG_VQwqxgvbgeGIHUnhdZPjb4YIu4I/view?usp=sharing">CD-131(24)</a></span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>燒重油方才使用，因操作不易，若在</span><span
+lang=EN-US>F/O</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>狀態須確認後方管路已關閉。</span></p>
+
+<p class=MsoNormal style='margin-left:49.55pt;text-indent:-49.55pt;mso-char-indent-count:
+-3.54;line-height:20.0pt;mso-line-height-rule:exactly;tab-stops:42.55pt 49.65pt'><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>25.</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>冷凝水泵</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>馬達與泵的聯軸器裝妥。</span></p>
+
+<p class=MsoNormal style='margin-left:45.5pt;mso-para-margin-left:-.05gd;
+text-indent:-46.2pt;mso-char-indent-count:-3.3;line-height:20.0pt;mso-line-height-rule:
+exactly;tab-stops:42.55pt 49.65pt'><u><span lang=EN-US style='mso-bidi-font-size:
+14.0pt'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>26.</span><span lang=EN-US>CP</span><span
+lang=EN-US style='mso-hansi-font-family:標楷體'><a
+href="https://drive.google.com/file/d/1KfjY1hRE3Won-PB3bKERSh0qkzsWQNEy/view?usp=sharing"><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>平衡閥</span></span>(26-1)</a></span><span style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>、出口</span><span lang=EN-US
+style='mso-hansi-font-family:標楷體'><a
+href="https://drive.google.com/file/d/1j-JTZy9g_X17NiJiMCIKGPomtEt_M_x7/view?usp=sharing"><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>溢氣閥</span></span>(26-2)</a></span><span style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>及</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>除礦水</span><span
+lang=EN-US style='mso-hansi-font-family:標楷體'><a
+href="https://drive.google.com/file/d/1x1tgVOlITZXRldiTbZHOvpV-csFSIJKD/view?usp=sharing"><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>水封閥開啟</span></span>(26-3)</a></span><span style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>（水封壓力須建立）。</span></p>
+
+<p class=MsoNormal style='margin-left:46.9pt;mso-para-margin-left:-.05gd;
+text-indent:-47.6pt;mso-char-indent-count:-3.4;line-height:20.0pt;mso-line-height-rule:
+exactly;tab-stops:42.55pt 49.65pt'><u><span lang=EN-US style='mso-bidi-font-size:
+14.0pt'><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>27.</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>冷凝水泵</span><span
+lang=EN-US style='mso-hansi-font-family:標楷體'><a
+href="https://drive.google.com/file/d/1qRF7VvvKfYFBuo90u7ZMwfg5C6WYSwP7/view?usp=sharing"><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>進口閥開啟</span></span></a>(27)</span><span style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>，開啟時</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>冷凝水經由</span><span
+lang=EN-US>Hotwell</span><span style='font-family:標楷體;mso-ascii-font-family:
+"Times New Roman"'>靠落差</span><span style='mso-bidi-font-size:14.0pt;font-family:
+標楷體;mso-ascii-font-family:"Times New Roman"'>將</span><span style='font-family:
+標楷體;mso-ascii-font-family:"Times New Roman"'>進口管路到出口管路逆止閥之前管路充滿水，同時將管內空氣排除，俟出口溢氣閥冒出水後再行關閉溢氣閥。</span></p>
+
+<p class=MsoNormal style='margin-left:46.9pt;mso-para-margin-left:-.05gd;
+text-indent:-47.6pt;mso-char-indent-count:-3.4;line-height:20.0pt;mso-line-height-rule:
+exactly'><u><span lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>28.</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>冷凝水泵</span><span
+lang=EN-US style='mso-hansi-font-family:標楷體'><a
+href="https://drive.google.com/file/d/1aj-Ze4PFUGZMgC-7kZNz39SDBGxM4zql/view?usp=sharing"><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>馬達冷卻水進、出口閥</span></span></a>(28)</span><span style='font-family:
+標楷體;mso-ascii-font-family:"Times New Roman"'>開啟。</span></p>
+
+<p class=MsoNormal style='margin-left:46.9pt;mso-para-margin-left:-.05gd;
+text-indent:-47.6pt;mso-char-indent-count:-3.4;line-height:20.0pt;mso-line-height-rule:
+exactly'><u><span lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>29.</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>現場</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>確認壓力傳送器根閥開啟。</span></p>
+
+<p class=MsoNormal style='margin-left:46.9pt;mso-para-margin-left:-.05gd;
+text-indent:-47.6pt;mso-char-indent-count:-3.4;line-height:20.0pt;mso-line-height-rule:
+exactly'><u><span lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>30.</span><span style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>軸承油位正常。並</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>確認</span><span
+lang=EN-US>SWP</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>起動運轉</span><span
+lang=EN-US>(</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>取載</span><span
+lang=EN-US>)</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:46.9pt;mso-para-margin-left:-.05gd;
+text-indent:-47.6pt;mso-char-indent-count:-3.4;line-height:20.0pt;mso-line-height-rule:
+exactly'><u><span lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp; </span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>31.</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>電氣人員施行冷凝水泵馬達&#32118;緣量測值：</span><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;</span><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;</span></span></u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>MΩ</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>以上，並送電。該台相對之出口電動閥，確認於送電備用狀態。</span></p>
+
+<p class=MsoNormal style='margin-left:46.9pt;mso-para-margin-left:-.05gd;
+text-indent:-47.6pt;mso-char-indent-count:-3.4;line-height:20.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US>____32.</span><span style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>底樓人員檢查取載冷凝水泵</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>確認該台正常允許起動後，回報爐控。</span><span
+lang=EN-US><span style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span></p>
+
+<p class=MsoNormal style='margin-left:46.9pt;mso-para-margin-left:-.05gd;
+text-indent:-47.6pt;mso-char-indent-count:-3.4;line-height:20.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US>____33.CP</span><span style='font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>按起動按鈕後，立即操作開啟</span><span lang=EN-US>CP</span><span
+lang=EN-US style='mso-hansi-font-family:標楷體'><a
+href="https://drive.google.com/file/d/1506us9MDVlTqAcHsTJuPi1jlL-ohkqFu/view?usp=sharing"><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'><span
+lang=EN-US>再循環閥</span></span><span style='mso-hansi-font-family:"Times New Roman"'>FV-CD063</span></a>(33)</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。出口電動閥自動開啟至</span><span
+lang=EN-US>15</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>％後</span><span
+lang=EN-US>CP</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>起動，出口電動閥繼續自動開至全開位置。調整再循環閥</span><span
+lang=EN-US>FV-CD063</span><span style='font-family:標楷體;mso-ascii-font-family:
+"Times New Roman"'>開度，使流量及運轉電流皆正常。</span></p>
+
+<p class=MsoNormal style='margin-left:47.6pt;text-indent:-47.6pt;mso-char-indent-count:
+-3.4;line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US>____34.</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>控制室確認冷凝水流量、運轉電流，集管壓力正常。</span></p>
+
+<p class=MsoNormal style='margin-left:47.6pt;text-indent:-47.6pt;mso-char-indent-count:
+-3.4;line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>____35.</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>底樓人員於起動後，</span><span
+lang=EN-US>CP</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>集管</span><span
+lang=EN-US>Vent CD-195</span><span style='font-family:標楷體;mso-ascii-font-family:
+"Times New Roman"'>的後關斷閥，當</span><span lang=EN-US>Vent</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>有水正常排出時</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>操作</span><span
+lang=EN-US>F/C</span><span style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。</span></p>
+
+<p class=MsoNormal style='margin-left:47.6pt;text-indent:-47.6pt;mso-char-indent-count:
+-3.4;line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>____36.</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>底樓與汽輔一課注意起動台軸承振動是否正常。水封改由</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>CP</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>出口管路</span><span
+style='font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>供給，</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>適當調整格蘭水封流量，避免冷凝水溶氧上升。並觀察濾網前後差壓是否正常。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:47.6pt;text-indent:-47.6pt;mso-char-indent-count:
+-3.4;line-height:20.0pt;mso-line-height-rule:exactly;tab-stops:106.35pt'><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>____37.</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>取載</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'>4</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>小時運轉期間，現場及控制室應隨時注意運轉狀況、數據是否正常。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:47.6pt;text-indent:-47.6pt;mso-char-indent-count:
+-3.4;line-height:20.0pt;mso-line-height-rule:exactly;tab-stops:106.35pt'><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:47.6pt;text-indent:-47.6pt;mso-char-indent-count:
+-3.4;line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>____38.</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>冷凝水泵取載期間，會同汽輔一課實施</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>CD Cooler × 2</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>查漏。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:71.4pt;mso-para-margin-left:1.53gd;
+text-indent:-50.0pt;mso-char-indent-count:-3.57;line-height:20.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt'>____</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'> (1)</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>查漏前聯絡汽輔一課，確認隔離掛卡中的</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>CD Cooler× 2</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>可執行加壓</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>查漏，冷凝水出口閥</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;color:black;mso-bidi-font-weight:
+bold'>CD-12/13</span><span style='mso-bidi-font-size:14.0pt;font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>維持</span><span lang=EN-US
+style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'>F/C</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>狀態。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:71.4pt;mso-para-margin-left:1.53gd;
+text-indent:-50.0pt;mso-char-indent-count:-3.57;line-height:20.0pt;mso-line-height-rule:
+exactly;tab-stops:2.0cm'><span lang=EN-US style='mso-bidi-font-size:14.0pt'>____</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'> (2)</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>CD Cooler× <st1:chmetcnv TCSC="0"
+NumberType="1" Negative="False" HasSpace="False" SourceValue="2" UnitName="兩"
+w:st="on">2<span lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+ mso-hansi-font-family:"Times New Roman"'><span lang=EN-US>兩</span></span></st1:chmetcnv><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>側端板在開啟狀態，並請</span>”</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>汽</span><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>”</span><span style='mso-bidi-font-size:14.0pt;
+font-family:標楷體;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>將殼側管內積水清理完成，以利觀察是否洩漏。</span><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:71.4pt;mso-para-margin-left:1.53gd;
+text-indent:-50.0pt;mso-char-indent-count:-3.57;line-height:20.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt'>____</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'> (3)</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>開啟</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>Cooler× 2</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>冷凝水洩水閥及冷凝水進口閥</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'>(</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>或旁通閥</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'>)</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>，充水及</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'>Purge </span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>Cooler× 2</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>冷凝水側，並請環化水處理二課化驗水質，特別留意有無殘留之洩漏海水</span><b><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";color:black'>，</span></b><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";color:black;mso-bidi-font-weight:bold'>確認符合標準</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:71.4pt;mso-para-margin-left:1.53gd;
+text-indent:-50.0pt;mso-char-indent-count:-3.57;line-height:20.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt'>____</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'> (4)</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>環化確認水質正常後，關閉</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>Cooler× 2</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>冷凝水洩水閥。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>Cooler× 2</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>加壓，並察看壓力錶指示值是否正常。</span><span
+style='mso-bidi-font-size:14.0pt'> </span><span lang=EN-US style='mso-bidi-font-size:
+14.0pt;mso-hansi-font-family:標楷體'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:71.4pt;mso-para-margin-left:1.53gd;
+text-indent:-50.0pt;mso-char-indent-count:-3.57;line-height:20.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt'>____</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'> (5)</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>於冷凝水泵取載期間，由</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>CD Cooler× <st1:chmetcnv TCSC="0"
+NumberType="1" Negative="False" HasSpace="False" SourceValue="2" UnitName="兩"
+w:st="on">2<span lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+ mso-hansi-font-family:"Times New Roman"'><span lang=EN-US>兩</span></span></st1:chmetcnv><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>側開啟的端板察看殼側是否洩漏或積水，</span></span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>會同汽輔一課實施查漏。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:71.4pt;mso-para-margin-left:4.03gd;
+text-indent:-15.0pt;mso-char-indent-count:-1.07;line-height:20.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:
+標楷體'>(6)</span><span lang=EN-US style='mso-bidi-font-size:14.0pt'>CD Cooler× <st1:chmetcnv
+TCSC="0" NumberType="1" Negative="False" HasSpace="False" SourceValue="2"
+UnitName="兩" w:st="on">2<span lang=EN-US style='font-family:標楷體;mso-ascii-font-family:
+ "Times New Roman";mso-hansi-font-family:"Times New Roman"'><span lang=EN-US>兩</span></span></st1:chmetcnv><span
+lang=EN-US style='font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>側的端板於</span></span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>查漏後，確認無</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman"'>洩漏狀態方能封閉。</span><span lang=EN-US
+style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:46.9pt;mso-para-margin-left:.05gd;
+text-indent:-46.2pt;mso-char-indent-count:-3.3;line-height:20.0pt;mso-line-height-rule:
+exactly;tab-stops:106.35pt'><span lang=EN-US style='mso-bidi-font-size:14.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-left:47.6pt;text-indent:-47.6pt;mso-char-indent-count:
+-3.4;line-height:20.0pt;mso-line-height-rule:exactly'><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'>____39.</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>冷凝水泵取載期間，聯絡環化水處理二課加藥</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>(</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>注氨</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>)</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>與量測冷凝水導電度、</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>PH</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:
+"Times New Roman"'>值</span><span style='mso-bidi-font-size:14.0pt;font-family:
+標楷體;mso-ascii-font-family:"Times New Roman"'>。</span><span lang=EN-US
+style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:78.0pt;mso-para-margin-left:4.05gd;
+text-indent:-21.3pt;mso-char-indent-count:-1.52;line-height:20.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:
+標楷體'>(1)</span><span style='mso-bidi-font-size:14.0pt;font-family:標楷體;
+mso-ascii-font-family:"Times New Roman";color:black'>請環化水處理二課化驗水質，特別留意有無殘留之洩漏海水，</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";color:black;mso-bidi-font-weight:bold'>若氯離子含量異常時，則依</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;color:black;mso-bidi-font-weight:
+bold'>”</span><span style='mso-bidi-font-size:14.0pt;font-family:標楷體;
+mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";
+color:black;mso-bidi-font-weight:bold'>環化</span><span lang=EN-US
+style='mso-bidi-font-size:14.0pt;color:black;mso-bidi-font-weight:bold'>”</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+mso-hansi-font-family:"Times New Roman";color:black;mso-bidi-font-weight:bold'>交代操作</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman";
+color:black'>。</span><span lang=EN-US style='mso-bidi-font-size:14.0pt;
+mso-hansi-font-family:標楷體;color:black'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:78.0pt;mso-para-margin-left:4.05gd;
+text-indent:-21.3pt;mso-char-indent-count:-1.52;line-height:20.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:
+標楷體'>(2)</span><span lang=EN-US style='mso-bidi-font-size:14.0pt;font-family:
+標楷體;mso-ascii-font-family:"Times New Roman"'>“</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>環<span
+style='color:black'>化</span><span lang=EN-US>”</span>水處理人員起動一台氨泵，</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'>CF-034</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>閥體自動開啟，氨泵置手動操作注氨，提升冷凝水</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'>PH</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>值。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:78.0pt;mso-para-margin-left:4.05gd;
+text-indent:-21.3pt;mso-char-indent-count:-1.52;line-height:20.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:
+標楷體'>(3)</span><span lang=EN-US style='mso-bidi-font-size:14.0pt;font-family:
+標楷體;mso-ascii-font-family:"Times New Roman"'>“</span><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>環<span
+style='color:black'>化</span><span lang=EN-US>”</span>量測</span><span lang=EN-US
+style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'>CD-303</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>出口水質，並依此調整注氨量，控制冷凝水</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'>PH</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>值於</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'>9.0 </span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'>~ </span><span lang=EN-US
+style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'>9.5</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:78.0pt;mso-para-margin-left:4.05gd;
+text-indent:-21.3pt;mso-char-indent-count:-1.52;line-height:20.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:
+標楷體'>(4)Polishers</span><span style='mso-bidi-font-size:14.0pt;font-family:
+標楷體;mso-ascii-font-family:"Times New Roman"'>東側的</span><span lang=EN-US
+style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'>CD-303</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>閥旁，有冷凝水導電度</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'>(SC)</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>指示錶，現場的指示值需與<span
+lang=EN-US>“</span>環<span style='color:black'>化</span><span lang=EN-US>”</span>量測數值相近，否則聯絡<span
+lang=EN-US>”</span>儀資<span lang=EN-US>”</span>調校。</span><span lang=EN-US
+style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'>(</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>導電度高表示水質髒或注氨過量</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'>)<o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:78.0pt;mso-para-margin-left:4.05gd;
+text-indent:-21.3pt;mso-char-indent-count:-1.52;line-height:20.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:
+標楷體'>(5)</span><span style='mso-bidi-font-size:14.0pt;font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>水質取樣室分析盤的取樣點</span><span lang=EN-US
+style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'>CP</span><span
+style='mso-bidi-font-size:14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>出口與</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'>CD
+Polishers</span><span style='mso-bidi-font-size:14.0pt;font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>出口集管，尚無水流出，水質分析的電腦畫面亦無指示，水質數據由<span
+lang=EN-US>“</span>環<span style='color:black'>化</span><span lang=EN-US>”</span>提供。</span><span
+lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:標楷體'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='margin-left:78.0pt;mso-para-margin-left:4.05gd;
+text-indent:-21.3pt;mso-char-indent-count:-1.52;line-height:20.0pt;mso-line-height-rule:
+exactly'><span lang=EN-US style='mso-bidi-font-size:14.0pt;mso-hansi-font-family:
+標楷體'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='line-height:20.0pt;mso-line-height-rule:exactly'><span
+lang=EN-US><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:0cm;
+margin-left:37.1pt;margin-bottom:.0001pt;mso-para-margin-top:.5gd;mso-para-margin-right:
+0cm;mso-para-margin-bottom:0cm;mso-para-margin-left:.51gd;mso-para-margin-bottom:
+.0001pt;text-indent:-29.95pt;mso-char-indent-count:-2.14;line-height:20.0pt;
+mso-line-height-rule:exactly'><span style='mso-bidi-font-size:14.0pt;
+font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>操作員：</span><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;</span></span></u><span style='mso-bidi-font-size:
+14.0pt;font-family:標楷體;mso-ascii-font-family:"Times New Roman"'>、</span><u><span
+lang=EN-US style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></u><span style='mso-bidi-font-size:14.0pt;font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>、</span><u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></u><span style='mso-bidi-font-size:14.0pt;font-family:標楷體;
+mso-ascii-font-family:"Times New Roman"'>值班主任：</span><u><span lang=EN-US
+style='mso-bidi-font-size:14.0pt'><span
+style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><o:p></o:p></span></u></p>
+
+</div>
+
+</body>
+
+</html>
